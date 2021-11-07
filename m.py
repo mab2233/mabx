@@ -53,8 +53,6 @@ else:
             sys.stdout.write(e)
             sys.stdout.flush()
             sleep(0.1)
-import pyfiglet
-logo = pyfiglet.figlet_format("* M A B *")
 print (F+ "تيم الرايق فوق ♡")
 print (Z+ "الرايق بيصبح ع الحبايب واحد واحد ")
 print(Z+logo)
@@ -120,7 +118,6 @@ while True:
     else:
         os.system('cls' if os.name == 'nt' else 'clear')
         print(Z1 + '=================================================================')
-        print(F + logo )
         print(X + '       تبم الرايق واحد بس    ')
         print(Z1 + '=================================================================')
         print((C + f"\r                 \n [=] Hit : {zz} \n [=] Bad : {aa} \n [=] Scure :  \n [=] Block : \n [=] User : {username} \n [=] Pass : {password} "), end='')
